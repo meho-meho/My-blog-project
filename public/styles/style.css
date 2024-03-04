@@ -60,7 +60,8 @@ textarea, input {
 .page-container {
     margin: 0 10% 0 10%;
     background-color: rgb(178, 255, 127);
-    height: 100vh;
+    min-height: 100vh;
+    height: max-content;
     padding: 1rem;
     box-shadow: rgba(138, 138, 138, 0.5) -8px 0 8px;
 }
